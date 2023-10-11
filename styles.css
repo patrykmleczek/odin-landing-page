@@ -2,10 +2,13 @@ body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: baseline;
     padding: 1% 10%;
@@ -31,8 +34,15 @@ body {
     font-weight: 700;
 }
 
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
 .hero {
     display: flex;
+    /* flex: 1; */
     justify-content: space-between;
     padding: 5% 10%;
     height: 30vh;
@@ -42,8 +52,7 @@ body {
 
 .cta-signup {
     display: flex;
-    flex: 2;
-    max-width: 40%;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -55,25 +64,37 @@ body {
 
 .cta-signup h2 {
     font-size: 48px;
-
-
+    font-weight: 900;
+    color: #f9faf8
 }
 
+.cta-signup p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #f9faf8
+}
+
+.cta-signup button {
+    margin-top: 3%;
+    padding: 0.4em 1.8em;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 0.4em;
+    font-weight: 700;
+    color: #f9faf8;
+}
 
 .hero-img {
     display: flex;
-    flex: 1;
-    object-fit: cover;
-    object-position: center;
-    justify-content: flex-end;
-    margin: 0;
+    width: 500px;
+    margin: 0px;
 }
 
-/* .hero-img img {
-    flex: 1;
+
+
+
+footer {
     display: flex;
-    justify-content: flex-end;
-    background-color: aqua;
-    width: 100%;
-    object-fit: contain;
-} */
+    flex: 1;
+    flex-direction: column;
+}
