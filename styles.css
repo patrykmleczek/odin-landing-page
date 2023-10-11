@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100vw;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1% 10%;
+    background-color: #1F2937;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.navigation .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    height: 30vh;
+    gap: 2%;
+    background-color: #1F2937;
+}
+
+.cta-signup {
+    display: flex;
+    flex: 2;
+    max-width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cta-signup * {
+    margin: 0;
+}
+
+.cta-signup h2 {
+    font-size: 48px;
+
+
+}
+
+
+.hero-img {
+    display: flex;
+    flex: 1;
+    object-fit: cover;
+    object-position: center;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+/* .hero-img img {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background-color: aqua;
+    width: 100%;
+    object-fit: contain;
+} */
